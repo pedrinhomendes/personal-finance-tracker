@@ -24,11 +24,29 @@ In this project, I developed a program to track my finances, organized into four
   - Pandas
   - Matplotlib
 
-## Usage
+## 💻 Usage
   1. Run the following command to start the application:
       ```bash
       python Personal_Finance_project.py
-     
+
+## 📂 Example CSV File
+
+Here is an example of the CSV file format used to track expenses and income. This file includes 5 rows of the dataset:
+
+| Date       | Category   | Type                  | Amount  |
+|------------|------------|-----------------------|---------|
+| 2024-11-18 | Grocery    | Debit                 | -20.6   |
+| 2024-11-16 | Food       | Debit                 | -16.38  |
+| 2024-11-15 | Food       | Debit                 | -36.84  |
+| 2024-11-15 | Extra bill | Debit                 | -33.2   |
+| 2024-11-15 | Salary     | Credit                | 589.82  |
+
+Columns:
+- Date: Transaction date (YYYY-MM-DD format).
+- Category: Transaction Classification (e.g. , Grocery, Salary, Food).
+- Type: Classification as Debit or Credit
+- Amount: Expense or Income Amount
+
 ## Features
 
 ## License
