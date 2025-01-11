@@ -18,7 +18,8 @@ In this project, I developed a program to track my finances, organized into four
 
 ## Usage
   1. Run the following command to start the application:
-  
+      ```bash
+      python Personal_Finance_project.py
      
 ## Features
 
